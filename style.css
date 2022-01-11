@@ -321,3 +321,166 @@ nav {
   font-size: 17px;
   opacity: 0.4;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 10px;
+    margin-top: 30px;
+  }
+
+  .brand-logo {
+    height: 5px;
+    width: 10px;
+  }
+  nav {
+    gap: 10px;
+    justify-content: space-evenly;
+  }
+  .nav-items {
+    font-size: 10px;
+    gap: 10px;
+  }
+  .nav-button-wrapper {
+    margin-left: 0;
+  }
+
+  .nav-btn-icon {
+    display: none;
+  }
+
+  .nav-button {
+    font-size: 10px;
+    padding: 5px 10px;
+  }
+  .hero-container {
+    margin-top: 20px;
+    background-image: none;
+    height: 40vh;
+  }
+
+  .hero-header {
+    font-size: 45px;
+    width: 300px;
+    line-height: 50px;
+    text-align: center;
+  }
+
+  .hero-text {
+    width: 320px;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: justify;
+  }
+
+  .learnmore-btn {
+    font-size: 10px;
+    padding: 15px 15px;
+    margin-top: 10px;
+  }
+
+  .about-container {
+    width: 245px;
+    margin-top: 100px;
+    /* position: relative; */
+    flex-direction: column;
+    padding-top: 0;
+  }
+
+  .about-img {
+    display: none;
+    /* position: relative;
+    margin-left: 0;
+    padding: 0;
+    top: 5px;
+    left: -75px;
+    max-width: 100%;
+    height: auto; */
+  }
+
+  .features-intro-header {
+    text-align: left;
+    margin-left: 55px;
+  }
+  .features-intro-text {
+    font-size: 17px;
+    width: 320px;
+    margin-top: -30px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .features-item-container {
+    /* margin-top: -40px; */
+    flex-direction: column;
+  }
+
+  .features-item-container-green {
+    flex-direction: column;
+    background-size: 400px;
+    width: 250px;
+    background-position: left bottom;
+  }
+
+  .features-item-container-pink {
+    flex-direction: column;
+    background-size: 400px;
+    width: 250px;
+    background-position: left bottom;
+  }
+
+  .features-img-wrapper {
+    align-self: left;
+  }
+
+  .features-item-text {
+    width: 250px;
+    font-size: 14px;
+    margin-top: -10px;
+  }
+
+  .features-item-header {
+    margin-top: -20px;
+  }
+
+  /* testimonials */
+  .john-co-flex {
+    flex-direction: column;
+  }
+
+  .testimony-container {
+    margin-left: -20px;
+    width: 175px;
+  }
+
+  .cta-container {
+    flex-direction: column;
+  }
+
+  .cta-button {
+    font-size: 10px;
+    padding: 15px 15px;
+  }
+
+  .cta-btn-icon {
+    display: none;
+  }
+
+  .cta-learnmore-btn {
+    font-size: 10px;
+    padding: 15px 15px;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .footer-link {
+    display: none;
+  }
+
+  .footer-icon {
+    justify-content: space-evenly;
+  }
+}
